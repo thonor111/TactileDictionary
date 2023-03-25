@@ -1,4 +1,4 @@
-# Departure Point
+# Audiovisual Task
 
 This folder contains the audiovisual task as a _magpie experiment.
 
