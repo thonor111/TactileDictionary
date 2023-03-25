@@ -1,0 +1,39 @@
+/* In this file you can overwrite/extend the given magpie-styles or declare your own ones */
+
+/* Example of extending a given magpie-style */
+
+/*.magpie-view-stimulus-container {
+    height: auto;
+    max-height: 350px;
+} */
+
+/* Display all titles in red */
+/*.magpie-view-title {
+    color: red;
+}*/
+
+/* Example of declaring your own style */
+.custom-border {
+   border: 1px solid powderblue;
+}
+
+.popup {
+    display: inline-block;
+}
+.popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #b1b1b1;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px;
+    position:relative;
+    top:50px;
+    right:150px;
+}
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
